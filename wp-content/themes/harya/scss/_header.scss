@@ -1,0 +1,13 @@
+header{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  li{
+    &:last-child{
+      color: $primary-color!important;
+    }
+    a{
+      color: $secondary-color;
+      font-size: 16px;
+    }
+  }
+}

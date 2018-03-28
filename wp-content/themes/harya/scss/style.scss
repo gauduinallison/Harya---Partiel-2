@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display:700');
+
+@import "foundation.scss";
+@import "variables.scss";
+@import "header.scss";
+@import "slider.scss";
+@import "presentation.scss";
+@import "personnalisation.scss";
+@import "lookbook.scss";
+@import "contact.scss";
+@import "footer.scss";
+
+body{
+  color: $secondary-color;
+  font-family: 'Montserrat', sans-serif;
+}

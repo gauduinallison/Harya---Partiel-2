@@ -1,0 +1,48 @@
+#lookbook{
+  padding-bottom: 100px;
+  position: relative;
+  img{
+    max-width: initial;
+    width: 100%;
+  }
+  .lookbook_txt{
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 600px;
+    height: 100%;
+    .large-12{
+      padding: 185px;
+      h3{
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+      }
+      p{
+        font-size: 14px;
+      }
+      a{
+        color: $secondary-color;
+        padding: 10px;
+        &:hover{
+          border: solid 1px $secondary-color;
+          width:100%;
+          transition: 0.5s all ease;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px){
+  #lookbook{
+    .lookbook_txt{
+      padding: 50px;
+      position: inherit;
+      width: 100%;
+      .large-12{
+        padding: 0;
+      }
+    }
+  }
+}

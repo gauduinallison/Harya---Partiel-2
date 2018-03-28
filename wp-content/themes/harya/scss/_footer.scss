@@ -1,0 +1,52 @@
+footer{
+  #prefooter{
+    background: $secondary-color;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    a{
+      color: white;
+    }
+  }
+  #footer{
+    padding-top: 15px;
+    font-size: 12px;
+    p{
+      padding-left: 20px;
+    }
+    nav{
+      ul{
+        li{
+          a{
+            color: $secondary-color;
+            font-size: 20px;
+            padding: 0;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  footer{
+    #prefooter{
+      .nav{
+        margin: 0 auto;
+        ul{
+          display: block;
+        }
+      }
+    }
+    #footer{
+      padding-bottom: 2wor0px;
+      p{
+        text-align: center;
+      }
+      .menu{
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+#slider{
+  .text-slider{
+    background: $secondary-color;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 358px;
+    padding: 43px;
+    top: 246px;
+    right: 706px;
+    h1{
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+    }
+    p{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    a{
+      color: white;
+      font-size: 14px;
+      padding: 10px;
+      &:hover{
+        border: solid 1px white;
+        width:100%;
+        transition: 0.5s all ease;
+      }
+    }
+  }
+  .img_slider{
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 980px){
+  #slider{
+    .text-slider{
+      position: inherit;
+      width: 100%;
+    }
+  }
+}
